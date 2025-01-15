@@ -27,3 +27,28 @@ Make sure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/gathanuarobert/movie-maze.git
+2. Navigate to the project directory:
+   ```bash  
+   cd movie-maze
+3. Install dependencies:
+   ```bash
+   npm install
+4. Set up Firebase   
+- Create a Firebase project at Firebase Console.
+- Set up Firebase Authentication and Firestore.
+- Add your Firebase config to the project(in a .env file).
+5. Start the development server:
+   ```bash
+   npm run dev
+
+## Usage
+1. Open the app in your browser (http://localhost:3000).
+2. Sign up or log in to start browsing movies.
+3. Like movies and view your liked movies on the profile page.
+4. You can remove liked movies from your profile by clicking the "Remove" button.
+
+## Contributing
+Feel free to fork the repository and submit pull requests if you have improvements or bug fixes.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
